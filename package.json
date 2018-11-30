@@ -1,11 +1,12 @@
 {
   "name": "gulp-starter",
-  "version": "1.0.0",
-  "description": "Minimal Gulp starter kit",
+  "version": "0.1.0",
+  "description": "Gulp-based starter kit",
   "main": "index.js",
   "scripts": {
     "start": "gulp",
-    "build": "gulp build"
+    "build": "gulp build",
+    "prepare": "node prepare.js"
   },
   "license": "MIT",
   "devDependencies": {
